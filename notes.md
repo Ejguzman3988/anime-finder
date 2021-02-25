@@ -5,3 +5,8 @@
 
 
 #Seperation of concerns
+
+
+### Make the code 1 level deep
+### Add externals gems with a gem file
+### How to make a good read me. 

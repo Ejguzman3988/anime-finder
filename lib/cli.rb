@@ -44,11 +44,11 @@ class FINDANI::CLI
     def show_anime(input)
         anime_obj = FINDANI::Anime.all[input.to_i-1]
 
-        puts "TITLE: #{anime_obj.canonicalTitle}"
-        puts "DESCRIPTION: #{anime_obj.description}"
-        puts "RATING: #{anime_obj.averageRating}"
-        puts " ------------- "
-        puts "type back to go menu "
+        puts "TITLE: #{anime_obj.canonicalTitle}".colorize(:red)
+        puts "DESCRIPTION: #{anime_obj.description}".colorize(:red)
+        puts "RATING: #{anime_obj.averageRating}".colorize(:red)
+        puts " ------------- ".colorize(:white)
+        puts "type back to go menu ".colorize(:green)
         user_input
     end
 

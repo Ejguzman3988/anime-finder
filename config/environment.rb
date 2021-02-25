@@ -1,5 +1,6 @@
 require 'pry'
 require 'httparty'
+require 'colorize'
 
 require_relative '../lib/modules/findani.rb'
 require_relative '../lib/anime'

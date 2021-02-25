@@ -3,3 +3,5 @@
 
 require_relative "../config/environment"
 
+
+FINDANI::CLI.new.run
